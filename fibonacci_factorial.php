@@ -5,7 +5,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>fibonacci o factorial</title>
+    <title>Fibonacci o factorial</title>
 </head>
 <body>
     

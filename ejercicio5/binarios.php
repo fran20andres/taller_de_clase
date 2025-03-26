@@ -1,20 +1,11 @@
 <?php
-class ConversorBinario {
-    private $numero;
-
-    public function __construct($numero) {
-        $this->numero = $numero;
-    }
-
-    public function convertir() {
-        return decbin($this->numero);
-    }
-}
+require 'claseBinarios.php';
 ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="binarios.css">
     <title>Binario</title>
 </head>
 <body>
@@ -35,6 +26,6 @@ class ConversorBinario {
          en binario es:<strong>$resultado</strong></p>";
     }
     ?>
+    <a href="../index.html">Inicio</a>
 </body>
-</html>
 </html>

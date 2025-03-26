@@ -1,0 +1,31 @@
+body {
+    background-color: #2d472c;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+section {
+    background-color: #2d472c;
+    border: 5px solid #1b2b1a; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+a:hover {
+    color: #cfcfcf;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+}

@@ -8,7 +8,6 @@ class Calculadora
     {
         $this->numero = intval($numero);
     }
-
     public function calcularFibonacci()
     {
         if ($this->numero < 1) {
@@ -25,10 +24,8 @@ class Calculadora
             $b = $a + $b;
             $a = $temp;
         }
-
         return implode("<br>", $resultado);
     }
-
     public function calcularFactorial()
     {
         if ($this->numero < 1) {
@@ -46,20 +43,4 @@ class Calculadora
         return implode(" x ", $cadena) . " = " . $factorial;
     }
 }
-
-$resultado = "";
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $numero = $_POST['numero'];
-    $operacion = $_POST['operacion'];
-
-    $calculadora = new Calculadora($numero);
-
-    if ($operacion == "fibonacci") {
-        $resultado = $calculadora->calcularFibonacci();
-    } elseif ($operacion == "factorial") {
-        $resultado = $calculadora->calcularFactorial();
-    }
-}
-
 ?>

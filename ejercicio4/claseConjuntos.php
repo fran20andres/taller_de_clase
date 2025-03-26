@@ -34,7 +34,7 @@ class Conjunto
         return [
             "Conjunto A" => $this->A,
             "Conjunto B" => $this->B,
-            "Unión (A ∪ B)" => $this->getUnion(),
+            "Unión (A U B)" => $this->getUnion(),
             "Intersección (A ∩ B)" => $this->getInterseccion(),
             "Diferencia (A - B)" => $this->getDiferenciaA_B(),
             "Diferencia (B - A)" => $this->getDiferenciaB_A()

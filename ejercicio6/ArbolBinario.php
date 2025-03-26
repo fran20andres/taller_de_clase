@@ -14,6 +14,7 @@
     </form>
     <?php
     require 'claseArbolBinario.php';
+    
     if (isset($_POST['valor'])) {
         $arbol = new ArbolBinario();
         $valores = explode(" ", strtoupper(trim($_POST['valor'])));
